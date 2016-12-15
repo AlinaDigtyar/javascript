@@ -1,9 +1,12 @@
 ;(function() {
 	"use strict";
 
-	var firstNumber = prompt("Enter first number"),
-		secondNumber = prompt("Enter second number");
+	var userAnswer = prompt("What is the official name of Javascript?");
 
-	console.log( Number(firstNumber) + Number(secondNumber) );
+	if (userAnswer === "ECMAScript") {
+		console.log("Correct!");
+	} else {
+		console.log("Didn't you know? ECMAScript");
+	}
 
 })();
